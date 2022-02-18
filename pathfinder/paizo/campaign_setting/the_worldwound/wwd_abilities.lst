@@ -1,0 +1,27 @@
+Test1	KEY: WWD ~ Test 1	CATEGORY:Special Ability	TYPE:TestChooseTemplate	DESC:Test 1
+Test2	KEY: WWD ~ Test 2	CATEGORY:Special Ability	TYPE:TestChooseTemplate	DESC:Test 2
+Test3	KEY: WWD ~ Test 3	CATEGORY:Special Ability	TYPE:TestChooseTemplate	DESC:Test 3
+Test4	KEY: WWD ~ Test 4	CATEGORY:Special Ability	TYPE:TestChooseTemplate	DESC:Test 4
+
+
+Demonic Traits ~ Abyssal Energy	CATEGORY:Internal	ABILITY:Special Ability|AUTOMATIC|TYPE=Abyssal Energy Demonic Trait
+
+Abyssal Energy	KEY:Demonic Traits ~ Abyssal Energy	CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural	DEFINE:AbyssalEnergy_BreathWeaponDice|0	DESC:Choose one of the following energy types-acid, fire, or cold. The demonic vermin gains immunity to that energy type, and also gains a breath weapon that inflicts that type of energy damage. This breath weapon is a 60-foot-line, and deals %1d6 points of damage (Reflex save halves). It can be used once every 1d4 rounds.|AbyssalEnergy_BreathWeaponDice	BONUS:VAR|AbyssalEnergy_BreathWeaponDice|CR
+
+Additional Senses	KEY:Demonic Traits ~ Additional Senses	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	DESC:The vermin has a large number of extra eyes and other sensory organs. It gains all-around vision, scent, and a +8 racial bonus on Perception checks.
+
+Death Throes	KEY:Demonic Traits ~ Death Throes	CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural	DEFINE:DeathThroesDice|0	DESC:When the vermin is slain, it can make a single melee attack (using any one of its natural attacks) as an immediate action. It then explodes into acid, fire, electricity, or cold (your choice), dealing %1d6 points of damage ( Reflex save halves).|DeathThroesDice	BONUS:VAR|DeathThroesDice|CR
+
+Diseased	KEY:Demonic Traits ~ Diseased	CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural	DESC:The demonic vermin is immune to disease, and its natural attacks inflict demonplague on a hit (Fortitude save negates).
+
+Drone	KEY:Demonic Traits ~ Drone	CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural	DESC:By rubbing its wings or limbs together as a standard action, the demonic vermin produces a loud, discordant drone that causes those within 30 feet of it to become sickened (if the vermin is CR 8 or less) or confused (if the vermin is CR 9 or higher) for 1d6 rounds (Will save negates). This is a sonic mind-affecting effect.
+
+Skitter	KEY:Demonic Traits ~ Skitter	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	DESC:The creature has uncanny speed and erratic movements. The vermin's speeds all increase by 10 feet, it gains Mobility and Spring Attack as bonus feats, and it gains a +4 racial bonus on Initiative checks.
+
+Negative Energy Absorption	KEY:Abyssal Energy ~ Negative Energy Absorption	CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural	DESC:Heals 1 hit point for every 3 points of damage that negative energy attacks would otherwise deal; a terror creature gets no saving throw against negative energy effects.
+
+Negative Energy Absorption	KEY:Terror Creature ~ Negative Energy Absorption	CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural	DESC:Heals 1 hit point for every 3 points of damage that negative energy attacks would otherwise deal; a terror creature gets no saving throw against negative energy effects.
+
+Immunity to Fear Effects	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity	DESC:You are immune to fear effects.	ASPECT:Immunity|Fear Effects
+
+Fear Aura	KEY:Terror Creature ~ Fear Aura	CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural.Aura	DEFINE:TerrorFearAuraDC|0	DESC:20 Ft., as Fear spell, DC %1|TerrorFearAuraDC	BONUS:VAR|TerrorFearAuraDC|10+(HD/2)+CHA
