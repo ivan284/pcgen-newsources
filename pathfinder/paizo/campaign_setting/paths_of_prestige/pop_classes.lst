@@ -85,7 +85,7 @@ CLASS:Razmiran Priest		STARTSKILLPTS:4	CSKILL:Bluff|Diplomacy|Intimidate|Knowled
 ###Block
 CLASS:Riftwarden			HD:8		TYPE:PC.Prestige	CLASSTYPE:PC	ABB:Rif		MAXLEVEL:10	SOURCEPAGE:p.46	DEFINE:RiftwardenLVL|0	DEFINE:NonEpicRiftwardenLVL|0	BONUS:VAR|RiftwardenLVL|CL	BONUS:VAR|NonEpicRiftwardenLVL|classlevel("APPLIEDAS=NONEPIC")	DESC:Sealer of extraplanar portals	
 ###Block
-CLASS:Riftwarden			
+CLASS:Riftwarden			PREALIGN:LG,NG,CG,LN,TN,CN	PREABILITY:2,CATEGORY=FEAT,Spell Focus (Abjuration),Spell Penetration	PRESKILL:1,Knowledge (Planes)=5	PRELANG:2,Abyssal,Infernal	PRESPELL:1,Magic Circle Against Evil
 ###Block
 CLASS:Riftwarden			STARTSKILLPTS:4	CSKILL:Intimidate|Knowledge (arcana)|Knowledge (planes)|Knowledge (religion)|Sense Motive|Spellcraft
 

@@ -423,12 +423,20 @@ Razmiran Priest	KEY:Razmiran Priest ~ Class	CATEGORY:Class		DEFINE:Razmiran_Prie
 Riftwarden		KEY:Riftwarden ~ Class	CATEGORY:Class		DEFINE:Riftwarden_CFP_Level|0	BONUS:COMBAT|BASEAB|NonEpicRiftwardenLVL*3/4|TYPE=Base.REPLACE	BONUS:VAR|Riftwarden_CFP_Level|RiftwardenLVL*3/4	BONUS:SAVE|BASE.Fortitude|(NonEpicRiftwardenLVL+1)/2	BONUS:SAVE|BASE.Reflex|(NonEpicRiftwardenLVL+1)/3	BONUS:SAVE|BASE.Will|(NonEpicRiftwardenLVL+1)/2
 
 ###Block Class Feature Progression
-#CATEGORY=Class|Riftwarden ~ Class.MOD	ABILITY:Special Ability|AUTOMATIC||PREVARGTEQ:Riftwarden_CFP_Level,1
+# Ability Name						Ability
+CATEGORY=Class|Riftwarden ~ Class.MOD	ABILITY:Special Ability|AUTOMATIC|Riftwarden ~ Counter-Summons|PREVARGTEQ:Riftwarden_CFP_Level,1
+CATEGORY=Class|Riftwarden ~ Class.MOD	ABILITY:Special Ability|AUTOMATIC|Riftwarden ~ Planar Guide|PREVARGTEQ:Riftwarden_CFP_Level,1
 
 ###Block Class Features
 #YYYYY	KEY:Riftwarden ~ YYYYY		CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	DESC:
+Counter-Summons		KEY:Riftwarden ~ Counter-Summons	CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural			DESC:A Riftwarden can ready an action to use a summon monster spell or spell-like ability as a counterspell, even though the casting time for a summon monster spell is 1 full round. When used this way, the summon monster spell is treated as though quickened to a swift action via the Quicken Spell metamagic feat, though its spell level is not increased, and it can be used only to counterspell. When used to counterspell, a summon monster spell can counter any conjuration (summoning) spell or spell-like ability of its level or lower, including an outsider’s summon ability.
+Planar Guide		KEY:Riftwarden ~ Planar Guide		CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary			DESC:At 1st level and every three levels thereafter, a Riftwarden chooses one of the following benefits. She may choose each benefit more than once, each time applying to a different plane or outsider subtype. These bonuses stack with similar bonuses from other classes, but unlike with a ranger’s abilities, these bonuses do not escalate when new enemies or terrains are selected.																																																																																																																																																																				BONUS:ABILITYPOOL|Riftwarden Planar Guide|RiftwardenLVL/3
 
-
+###Block Planar Guides
+# Ability Name		Unique Key						SORTKEY							Category of Ability		Type										Restricted Ability									Innate Spells											Description																																																										Bonus to Ability Pool					Modify VAR						Bonus
+Favored Enemy			KEY:Riftwarden ~ Favored Enemy			SORTKEY:Planar Guides ~ Favored Enemy			CATEGORY:Special Ability	TYPE:SpecialQuality.Planar Guide.Extraordinary																		DESC:Choose one outsider subtype as a favored enemy (as the ranger class feature).
+Favored Terrain			KEY:Riftwarden ~ Favored Terrain			SORTKEY:Planar Guides ~ Favored Terrain			CATEGORY:Special Ability	TYPE:SpecialQuality.Planar Guide.Extraordinary																		DESC:Choose one plane other than the Material Plane as favored terrain (as the ranger class feature).
+Terrain Mastery			KEY:Riftwarden ~ Terrain Mastery			SORTKEY:Planar Guides ~ Terrain Mastery			CATEGORY:Special Ability	TYPE:SpecialQuality.Planar Guide.Extraordinary																		DESC:Choose one plane to gain terrain mastery (as the horizon walker class feature; Advanced Player’s Guide 265). A Riftwarden must have the appropriate plane as a favored terrain before gaining terrain mastery with it.
 
 ###Block
 # Ability Name	Unique Key				Category of Ability	Define					Combat bonus									Modify VAR								Bonus
