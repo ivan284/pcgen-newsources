@@ -435,8 +435,8 @@ Planar Guide		KEY:Riftwarden ~ Planar Guide		CATEGORY:Special Ability	TYPE:Riftw
 ###Block Planar Guides
 # Ability Name		Unique Key						SORTKEY							Category of Ability		Type										Restricted Ability									Innate Spells											Description																																																										Bonus to Ability Pool					Modify VAR						Bonus
 Favored Enemy			KEY:Riftwarden ~ Favored Enemy			SORTKEY:Planar Guides ~ Favored Enemy			CATEGORY:Special Ability	TYPE:RiftwardenClassFeatures.PlanarGuide																		DESC:Choose one outsider subtype as a favored enemy (as the ranger class feature).
-Favored Terrain			KEY:Riftwarden ~ Favored Terrain			SORTKEY:Planar Guides ~ Favored Terrain			CATEGORY:Special Ability	TYPE:SpecialQuality.Planar Guide.Extraordinary																		DESC:Choose one plane other than the Material Plane as favored terrain (as the ranger class feature).
-Terrain Mastery			KEY:Riftwarden ~ Terrain Mastery			SORTKEY:Planar Guides ~ Terrain Mastery			CATEGORY:Special Ability	TYPE:SpecialQuality.Planar Guide.Extraordinary																		DESC:Choose one plane to gain terrain mastery (as the horizon walker class feature; Advanced Player’s Guide 265). A Riftwarden must have the appropriate plane as a favored terrain before gaining terrain mastery with it.
+Favored Terrain			KEY:Riftwarden ~ Favored Terrain			SORTKEY:Planar Guides ~ Favored Terrain			CATEGORY:Special Ability	TYPE:RiftwardenClassFeatures.PlanarGuide																		DESC:Choose one plane other than the Material Plane as favored terrain (as the ranger class feature).
+Terrain Mastery			KEY:Riftwarden ~ Terrain Mastery			SORTKEY:Planar Guides ~ Terrain Mastery			CATEGORY:Special Ability	TYPE:RiftwardenClassFeatures.PlanarGuide																		DESC:Choose one plane to gain terrain mastery (as the horizon walker class feature; Advanced Player’s Guide 265). A Riftwarden must have the appropriate plane as a favored terrain before gaining terrain mastery with it.
 
 ###Block
 # Ability Name	Unique Key				Category of Ability	Define					Combat bonus									Modify VAR								Bonus
