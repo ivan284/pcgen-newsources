@@ -7,10 +7,8 @@ STATUS:BETA
 GENRE:Fantasy
 BOOKTYPE:Adventure
 SETTING:Pathfinder|Golarion
-PRECAMPAIGN:1,INCLUDESBOOKTYPE=Core Rules,INCLUDESBOOKTYPE=Complete Core
 PRECAMPAIGN:1,INCLUDES=Advanced Player's Guide
-PRECAMPAIGN:1,INCLUDES=Ultimate Combat,INCLUDES=Ultimate Equipment
-PRECAMPAIGN:1,INCLUDES=Mythic Adventures
+PRECAMPAIGN:1,INCLUDES=Wrath of the Righteous, Part 1: The Worldwound Incursion
 PUBNAMELONG:Paizo Publishing
 PUBNAMESHORT:Paizo
 PUBNAMEWEB:http://paizo.com
@@ -46,7 +44,7 @@ COPYRIGHT:PCGen dataset conversion for "Pathfinder Adventure Path #74: Sword of 
 #EXTRAFILE:OGL.txt
 
 # Data files
-#EQUIPMENT:ap74_equip.lst
+EQUIPMENT:ap74_equip.lst
 
 #ABILITY:ap74_abilities.lst
 #ABILITYCATEGORY:ap74_abilitycategories.lst
