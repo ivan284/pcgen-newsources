@@ -32,6 +32,10 @@ COPYRIGHT:Pathfinder Campaign Setting: The Worldwound Copyright 2013, Paizo Publ
 
 # Data files
 ABILITY:wwd_abilities.lst
+ABILITYCATEGORY:wwd_abilitycategories.lst
+KIT:wdd_kits_race.lst
+RACE:wwd_races.lst
+SPELL:wdd_spells.lst
 TEMPLATE:wwd_templates.lst
 
 # Forward References
