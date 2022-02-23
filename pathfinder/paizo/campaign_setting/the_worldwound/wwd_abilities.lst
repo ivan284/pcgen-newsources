@@ -4,9 +4,9 @@ Test3	KEY: WWD ~ Test 3	CATEGORY:Special Ability	TYPE:TestChooseTemplate	DESC:Te
 Test4	KEY: WWD ~ Test 4	CATEGORY:Special Ability	TYPE:TestChooseTemplate	DESC:Test 4
 
 
-Demonic Traits ~ Abyssal Energy	CATEGORY:Internal	ABILITY:Special Ability|AUTOMATIC|TYPE=Abyssal Energy Demonic Trait
+#Demonic Traits ~ Abyssal Energy	CATEGORY:Internal	ABILITY:Special Ability|AUTOMATIC|TYPE=Abyssal Energy Demonic Trait
 
-Abyssal Energy	KEY:Demonic Traits ~ Abyssal Energy	CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural	DEFINE:AbyssalEnergy_BreathWeaponDice|0	DESC:Choose one of the following energy types-acid, fire, or cold. The demonic vermin gains immunity to that energy type, and also gains a breath weapon that inflicts that type of energy damage. This breath weapon is a 60-foot-line, and deals %1d6 points of damage (Reflex save halves). It can be used once every 1d4 rounds.|AbyssalEnergy_BreathWeaponDice	BONUS:VAR|AbyssalEnergy_BreathWeaponDice|CR
+Abyssal Energy	KEY:Demonic Traits ~ Abyssal Energy	CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural	DEFINE:AbyssalEnergy_BreathWeaponDice|0	DEFINE:AbyssalEnergy_Type|0		DESC:Choose one of the following energy types-acid, fire, or cold. The demonic vermin gains immunity to that energy type, and also gains a breath weapon that inflicts that type of energy damage. This breath weapon is a 60-foot-line, and deals %1d6 points of damage (Reflex save halves). It can be used once every 1d4 rounds.|AbyssalEnergy_BreathWeaponDice	BONUS:VAR|AbyssalEnergy_BreathWeaponDice|CR	CHOOSE:|Acid|Fire|Cold	BONUS:VAR|AbyssalEnergy_Type|%LIST
 
 Additional Senses	KEY:Demonic Traits ~ Additional Senses	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	DESC:The vermin has a large number of extra eyes and other sensory organs. It gains all-around vision, scent, and a +8 racial bonus on Perception checks.
 
